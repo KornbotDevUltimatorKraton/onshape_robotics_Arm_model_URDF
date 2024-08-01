@@ -1,0 +1,199 @@
+<robot name="Smart_Robots">
+<link name="part_1">
+<visual>
+<origin xyz="-0.026505183829739500934 0.020985862326983767412 -0.0011190139842017013394" rpy="7.358325780984980669e-17 -1.668282557532609041e-15 0.21446911751457217732" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.026505183829739500934 0.020985862326983767412 -0.0011190139842017013394" rpy="7.358325780984980669e-17 -1.668282557532609041e-15 0.21446911751457217732" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="2556.34" />
+<inertia ixx="0.356" ixy="0"  ixz="0" iyy="0.356" iyz="0" izz="0.356" />
+</inertial>
+</link>
+
+<link name="assembly_1">
+<visual>
+<origin xyz="-0.00050800000000000150591 6.9388939039072283776e-18 0.053286000000000000032" rpy="3.141592653589793116 -0 -2.1144347211128180631e-17" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_6.stl"/>
+</geometry>
+<material name="part_6_material">
+<color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.00050800000000000150591 6.9388939039072283776e-18 0.053286000000000000032" rpy="3.141592653589793116 -0 -2.1144347211128180631e-17" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_6.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-3.4694469519536141888e-18 -3.4694469519536141888e-18 0.090623999999999996224" rpy="-3.141592653589793116 -0 -2.1144347211128180631e-17" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_5.stl"/>
+</geometry>
+<material name="part_5_material">
+<color rgba="0.98039215686274505668 0.71372549019607844922 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-3.4694469519536141888e-18 -3.4694469519536141888e-18 0.090623999999999996224" rpy="-3.141592653589793116 -0 -2.1144347211128180631e-17" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_5.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="36.34" />
+<inertia ixx="0.3456" ixy="0"  ixz="0" iyy="0.3445" iyz="0" izz="0.4567" />
+</inertial>
+</link>
+
+<link name="assembly_1_2">
+<visual>
+<origin xyz="-1.3877787807814456755e-17 0.32484817418098399511 0.076221861471136576061" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_7.stl"/>
+</geometry>
+<material name="part_7_material">
+<color rgba="0.61568627450980395466 0.81176470588235294379 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.3877787807814456755e-17 0.32484817418098399511 0.076221861471136576061" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_7.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.29837389590963803165 -0.51482094345683804271 0.076221861471136242994" rpy="-1.5707963267948950037 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_8.stl"/>
+</geometry>
+<material name="part_8_material">
+<color rgba="0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.29837389590963803165 -0.51482094345683804271 0.076221861471136242994" rpy="-1.5707963267948950037 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.023781313250870836362 0.33994335485457938262 0.076221861471135965438" rpy="1.5707963267948983344 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_9.stl"/>
+</geometry>
+<material name="part_9_material">
+<color rgba="0.98039215686274505668 0.71372549019607844922 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.023781313250870836362 0.33994335485457938262 0.076221861471135965438" rpy="1.5707963267948983344 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_9.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="29.78" />
+<inertia ixx="0.3674" ixy="0"  ixz="0" iyy="0.3458" iyz="0" izz="0.4789" />
+</inertial>
+</link>
+
+<link name="part_10">
+<visual>
+<origin xyz="0.2839944415269319844 0.50605307554357992217 0.093350872256403177873" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_10.stl"/>
+</geometry>
+<material name="part_10_material">
+<color rgba="0.98039215686274505668 0.71372549019607844922 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.2839944415269319844 0.50605307554357992217 0.093350872256403177873" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_10.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="19.78" />
+<inertia ixx="0.3674" ixy="0"  ixz="0" iyy="0.3458" iyz="0" izz="0.4789" />
+</inertial>
+</link>
+
+<link name="part_11">
+<visual>
+<origin xyz="-0.041948340833187096333 0.50709062814712513312 0.33014797984504695716" rpy="1.570796326794896558 -4.4541348134564477247e-18 -3.034476982480160396e-18" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_11.stl"/>
+</geometry>
+<material name="part_11_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.041948340833187096333 0.50709062814712513312 0.33014797984504695716" rpy="1.570796326794896558 -4.4541348134564477247e-18 -3.034476982480160396e-18" />
+<geometry>
+<mesh filename="package://Smart_Robots/Smart_Robots/part_11.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="17.78" />
+<inertia ixx="0.3674" ixy="0"  ixz="0" iyy="0.3458" iyz="0" izz="0.4789" />
+</inertial>
+</link>
+
+<joint name="hand" type="revolute">
+<origin xyz="-0.048185538318115228584 -0.0010375526035452109497 0.051402531423216102358" rpy="-6.1719555739207486655e-17 1.5707963267948961139 0" />
+<parent link="part_10" />
+<child link="part_11" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="6.283185307179586232"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="wrist" type="revolute">
+<origin xyz="-0.2602131282760608566 -0.16610972068899942933 -0.019049999999999969735" rpy="1.0019538318562027426e-17 -3.8192177280355666212e-16 -1.8036734406152004268e-15" />
+<parent link="assembly_1_2" />
+<child link="part_10" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="4.712388980384689674"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="shoulder" type="revolute">
+<origin xyz="0.069109861471136596611 2.7755575615628913511e-17 -0.27156217418098405059" rpy="1.5707963267948972241 -0.35724126755982904546 -1.5707963267948970021" />
+<parent link="assembly_1" />
+<child link="assembly_1_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="4.712388980384689674"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="base" type="revolute">
+<origin xyz="-0.026487750574706647733 0.021001724336332686788 0.077620986015798310031" rpy="3.1415926535897926719 -2.2503819995540302376e-15 0.21446911751457184425" />
+<parent link="part_1" />
+<child link="assembly_1" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="6.283185307179586232"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+
+</robot>

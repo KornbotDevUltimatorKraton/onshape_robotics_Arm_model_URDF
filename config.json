@@ -1,0 +1,8 @@
+{
+  "documentId":"393eaea1a4bcc684735ba476",
+  "outputFormat":"urdf",  
+  "packageName":"Smart_Robots/Smart_Robots",
+  "robotName":"Smart_Robots",
+  "userScads":true
+
+}
